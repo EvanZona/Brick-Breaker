@@ -16,7 +16,6 @@
 		3F65120D27D6691D00FBDAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F65120C27D6691D00FBDAAC /* Assets.xcassets */; };
 		3F65121827D6691E00FBDAAC /* Brick_BreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65121727D6691E00FBDAAC /* Brick_BreakerTests.swift */; };
 		3F65122327D6691E00FBDAAC /* Brick_BreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65122227D6691E00FBDAAC /* Brick_BreakerUITests.swift */; };
-		3F65123127D66B1B00FBDAAC /* Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F65123027D66B1A00FBDAAC /* Stars.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		3F65121E27D6691E00FBDAAC /* Brick BreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brick BreakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F65122227D6691E00FBDAAC /* Brick_BreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick_BreakerUITests.swift; sourceTree = "<group>"; };
 		3F65122427D6691E00FBDAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F65123027D66B1A00FBDAAC /* Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stars.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				3F65120727D6691500FBDAAC /* GameViewController.swift */,
 				3F65120927D6691500FBDAAC /* Main.storyboard */,
 				3F65120C27D6691D00FBDAAC /* Assets.xcassets */,
-				3F65123027D66B1A00FBDAAC /* Stars.png */,
 				3F65120E27D6691D00FBDAAC /* Info.plist */,
 			);
 			path = "Brick Breaker";
@@ -238,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F65120B27D6691500FBDAAC /* Main.storyboard in Resources */,
-				3F65123127D66B1B00FBDAAC /* Stars.png in Resources */,
 				3F65120227D6691500FBDAAC /* GameScene.sks in Resources */,
 				3F65120D27D6691D00FBDAAC /* Assets.xcassets in Resources */,
 				3F65120427D6691500FBDAAC /* Actions.sks in Resources */,
