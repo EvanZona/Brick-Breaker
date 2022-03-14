@@ -83,7 +83,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func makeLoseZone() {
-        loseZone = SKSpriteNode(color: .red, size: CGSize(width: frame.width, height: 50))
+        loseZone = SKSpriteNode(color: .white, size: CGSize(width: frame.width, height: 50))
         loseZone.position = CGPoint(x: frame.midX, y: frame.minY + 25)
         loseZone.name = "loseZone"
         loseZone.physicsBody = SKPhysicsBody(rectangleOf: loseZone.size)
@@ -113,7 +113,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         // now, figure the number and spacing of each row of bricks
         let count = Int(frame.width) / 55   // bricks per row
         let xOffset = (Int(frame.width) - (count * 55)) / 2 + Int(frame.minX) + 25
-        let colors: [UIColor] = [.blue, .orange, .green]
+        let colors: [UIColor] = [.black, .gray, .white]
         for r in 0..<3 {
             let y = Int(frame.maxY) - 15 - (r * 25)
             for i in 0..<count {
